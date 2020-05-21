@@ -7,7 +7,7 @@ var http = require('http')
 http.createServer(function (req, res){
     //tell the server to expect some text!
     res.writeHead(200, {
-        'Content-Type', 'text/plain'
+        'Content-Type' : 'text/plain'
     });
     //End the request with some text
     res.end('Hello World');
